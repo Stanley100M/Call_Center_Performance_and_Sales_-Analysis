@@ -18,7 +18,7 @@ All metrics were created using:
 
    **Method**:
 
-* Value field: Call Number
+* Value field: Call count
 
 * Aggregation: Count
 
@@ -34,7 +34,7 @@ All metrics were created using:
 
 **Method**:
 
-Value field: Purchase Amount
+Value field: Total Amount
 
 Aggregation: Sum
 
@@ -51,7 +51,7 @@ Aggregation: Sum
 
 **Method**:
 
-* Value field: Duration (seconds)
+* Value field: Total Duration (seconds)
 
 * Aggregation: Sum
 
@@ -67,7 +67,7 @@ Aggregation: Sum
 
 **Method**:
 
-* Value field: Satisfaction Rating
+* Value field: AVG Rating
 
 * Aggregation: Average
 
@@ -83,9 +83,9 @@ Aggregation: Sum
 
 **Method**:
 
-**Report filter**: Satisfaction Rating ≥ 4
+**Report filter**: Satisfaction Rating > 4
 
-* Value field: Call Number
+* Value field: 5 Star Rating
 
 * Aggregation: Count
 
